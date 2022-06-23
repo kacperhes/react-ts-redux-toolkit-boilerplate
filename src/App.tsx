@@ -1,6 +1,5 @@
 import { Routes, Route } from "react-router-dom";
 
-
 import { HOME } from "./routes";
 import { Home } from "./views";
 
@@ -13,6 +12,6 @@ const App = () => {
       <Route path={HOME} element={<Home />} />
     </Routes>
   );
-}
+};
 
 export default App;
